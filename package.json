@@ -1,0 +1,14 @@
+{
+  "name": "tailwindcss-project",
+  "version": "1.0.0",
+  "description": "its base on tailwindcss",
+  "main": "app.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./output/style.css -w"
+  },
+  "author": "Shohag Ahmed",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}

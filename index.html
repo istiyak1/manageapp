@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwindcss</title>
+    <link rel="stylesheet" href="./output/style.css">
+</head>
+<body>
+    <nav class="nav container mx-auto p-6">
+         <div class="flex justify-between items-center">
+            <div class="pt-2">
+                <img src="img/logo.svg" alt="">
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="" class="hover:text-yellow">Pricing</a>
+                <a href="" class="hover:text-indigo ">Product</a>
+                <a href="" class="hover:text-dark ">About Us</a>
+                <a href="" class="hover:text-dark ">Community</a>
+            </div>
+            <a href="#" class=" hidden md:block text-white bg-yellow-600 p-3 pt-2 px-6 rounded-full baseline hover:bg-yellow-800">Get Started</a>
+         </div>
+    </nav>
+<!--Hero Section-->
+<section id="hero">
+     <div class="flex p-6 container mx-auto flex-col-reverse md:flex-row mb-20">
+        <!--Left item -->
+        <div class="article flex flex-col md:w-1/2 space-y-12 md:space-y-4">
+            <h1 class="max-w-md text-3xl md:text-4xl text-center text-bold md:text-left ">Bring Everyone together to build better products</h1>
+            <p class="mx-w-sm text-center md:text-left text-dark md:space-y-4">Manage makes its simple for software teams to plan day-to-day tasks while kepping the learger team gols in view.</p>
+            <div class="md:space-y-4">
+                <a href="#" class="text-white bg-yellow-600 p-3 px-6 rounded-full baseline hover:bg-yellow-800">Get Started</a>
+            </div>
+        </div>
+
+        <div class="img-section md:w-1/2">
+            <img src="img/illustration-intro.svg" alt="">
+        </div>
+     </div>
+</section>
+
+
+<section id="feature">
+    <div class="container p-6 flex flex-col md:flex-row mx-auto px-4 space-y-12 md:space-y-0">
+        <!--whats different -->
+        <div class="flex flex-col space-y-12 md:w-1/2 ">
+            <h1 class="mx-w-md text-bold text-center text-2xl md:text-3xl md:text-left text:dark">What's different about Manage?</h1>
+            <p class="mx-w-sm text-center text-indigo md:text-left">Manage provides all the functionality your team needs, without the complexity . Our software is tailor-made for modern digital products teams</p>
+        </div>
+        <!--numberList-->
+        <div class="flex flex-col space-y-12 md-w-1/2">
+
+        <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    
+                <div class="rounded-l-full md:bg-transparent">
+                    <div class="flex items-center space-x-2">
+                      <div class="px-4 py-2 rounded-full text-white  md:py-1 bg-red-800">01</div>
+                      <h3 class="text-base font-bold md:mb-4 md:hidden sm:bg-orange-800 text-white">Track company-wide progress</h3>
+                    </div>
+                </div>
+
+                <div class="div">
+                    <h3 class="text-base font-bold hidden text-lg md:block">Track company-wide progress</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe consequatur soluta aut excepturiLorem ipsum dolor sit amet consectetu</p>
+               </div>
+        </div>
+
+
+        <!--numberList 2-->
+        <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    
+            <div class="rounded-l-full md:bg-transparent">
+                <div class="flex items-center space-x-2">
+                  <div class="px-4 py-2 rounded-full text-white  md:py-1 bg-red-800">02</div>
+                  <h3 class="text-base font-bold md:mb-4 md:hidden sm:bg-orange-800 text-white">Track company-wide progress</h3>
+                </div>
+            </div>
+
+            <div class="div">
+                <h3 class="text-base font-bold hidden text-lg md:block">Track company-wide progress</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe consequatur soluta aut excepturiLorem ipsum dolor sit amet consectetu</p>
+           </div>
+    </div>
+
+
+         <!--numberList 3-->
+         <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    
+            <div class="rounded-l-full md:bg-transparent">
+                <div class="flex items-center space-x-2">
+                  <div class="px-4 py-2 rounded-full text-white  md:py-1 bg-red-800">03</div>
+                  <h3 class="text-base font-bold md:mb-4 md:hidden sm:bg-orange-800 text-white">Track company-wide progress</h3>
+                </div>
+            </div>
+
+            <div class="div">
+                <h3 class="text-base font-bold hidden text-lg md:block">Track company-wide progress</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe consequatur soluta aut excepturiLorem ipsum dolor sit amet consectetu</p>
+           </div>
+        </div>
+
+
+        </div>
+
+        
+
+
+    </div>
+</section>
+ 
+<!--Testimonial-->
+<section id="testimonial">
+    <div class="container max-w-7xl bg-gray-400 flex flex-col text-center mt-32">
+        <h2 class=" text-center text-dark text-3xl">What's different about Manage</h2>
+
+        <div class="flex flex-col md:flex-row ">
+            <div class="flex flex-col mt-24 p-6 space-y-6 rounded-lg bg:blue-700 items-center md:w-1/3">
+                <img src="img/person.jpg" class="w-16 -mt-14 " alt="">
+                <h5>Adib Al Hisam</h5>
+                <p class="text-sm text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, culpa!</p>
+           </div>
+  
+
+           <div class="flex flex-col mt-24 p-6 space-y-6 rounded-lg bg:blue-700 items-center md:w-1/3">
+                <img src="img/person.jpg" class="w-16 -mt-14 " alt="">
+                <h5>Adib Al Hisam</h5>
+                <p class="text-sm text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, culpa!</p>
+           </div>
+
+
+   
+           <div class="flex flex-col mt-24 p-6 space-y-6 rounded-lg bg:blue-700 items-center md:w-1/3">
+                <img src="img/person.jpg" class="w-16 -mt-14 " alt="">
+                <h5>Adib Al Hisam</h5>
+                <p class="text-sm text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, culpa!</p>
+           </div>
+        </div>
+
+        <div class="my-16">  <a href="#" class="text-white bg-yellow-600 p-3 px-6 rounded-full baseline hover:bg-yellow-800 shadow-2xl shadow-slate-500">Get Started</a></div>
+
+
+    </div>
+</section>
+
+<section id="simplefy" class="bg-orange-700">
+    <div class="container md:py-12 px-6 py=24 mx-auto space-y-12 flex flex-col md:flex-row md:space-y-0 justify-between items-center bg-orange-700">
+        <div class="simplefy">
+            <h2 class="text-white font-bold text-center text-4xl md:text-left">Simplefy how your works today</h2>
+        </div>
+        <div class="btn  pb-3">
+            <a href="#" class="text-white bg-yellow-600 p-2 px-6 rounded-full baseline hover:bg-yellow-800 shadow-2xl shadow-slate-500">Get Started</a>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-gray-400">
+     <div class="container flex flex-col-reverse justify-between items-center py-10 mx-auto px-6 space-y-8 md:flex-row md:space-y-0">
+
+       <div class="space-y-12 flex-colmn-reverse md:flex-col md:space-y-0 md:items-start">
+            <div class="div my-5">
+                <img src="img/logo-white.svg" alt="" class="h-8">
+            </div>
+            <!--socal links-->
+            <div class="flex justify-between">
+                <a href="#"> <img src="img/github-svgrepo-com.svg" alt="" class="h-6"></a>
+                <a href="#"> <img src="img/2021_Facebook_icon.svg.png" alt="" class="h-6"></a>
+                <a href="#"> <img src="img/25231.png" alt="" class="h-6"></a>
+                <a href="#"> <img src="img/github-svgrepo-com.svg" alt="" class="h-6"></a>
+                <a href="#"> <img src="img/github-svgrepo-com.svg" alt="" class="h-6"></a>
+            </div>
+       </div>
+
+       <div class="flex justify-around space-x-28 pb-5">
+           <div class="flex flex-col text-white space-y-2">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Product</a>
+           </div>
+           <div class="flex flex-col text-white space-y-2">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Product</a>
+           </div>
+       </div>
+
+       <div class="flex flex-col justify-between space-y-2">
+            <form action="#">
+                <div class="flex space-x-3 ">
+                <input type="text" placeholder="updated your inbox" class="px-4 py-2 focus:outline-none rounded-full">
+                <button class="px-4 py-2 text-white bg-orange-500 rounded-full focus:outline-none text-medium hover:bg-orange-800">Go</button>
+             </div>
+            </form>
+        <div class="hidden text-center text-white md:block">Copyright &copy; 2023, all right reserve</div>
+
+       </div>
+        
+     </div>
+
+</footer>
+
+
+</body>
+</html>
