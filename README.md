@@ -1,2 +1,2 @@
 # manageapp
-## this project is based on tailwindcs
+## this project is based on tailwindcss
